@@ -15,7 +15,7 @@ description:
 
 I've crafted some predefined color schemes for this DivineInsights blog theme. You can replace these color schemes with the original ones.
 
-If you don't know how you can configure color schemes, check [this blog post](https://divineinsights.pages.dev/posts/customizing-DivineInsights-theme-color-schemes/).
+If you don't know how you can configure color schemes, check [this blog post](https://divineinsights.vercel.app/posts/customizing-DivineInsights-theme-color-schemes/).
 
 ## Table of contents
 

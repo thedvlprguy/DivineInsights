@@ -25,7 +25,7 @@ During development, it's okay to leave `SITE.website` empty. But in production m
 ```js
 // file: src/config.ts
 export const SITE = {
-  website: "https://divineinsights.pages.dev/",
+  website: "https://divineinsights.vercel.app/",
   author: "Aditya Tomar",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   title: "DivineInsights",
@@ -162,5 +162,5 @@ linkTitle: `Follow ${SITE.title} on Twitter`;
 
 ## Conclusion
 
-This is the brief specification of how you can customize this theme. You can customize more if you know some coding. For customizing styles, please read [this article](https://divineinsights.pages.dev/posts/customizing-DivineInsights-theme-color-schemes/). Thanks for reading.✌🏻
+This is the brief specification of how you can customize this theme. You can customize more if you know some coding. For customizing styles, please read [this article](https://divineinsights.vercel.app/posts/customizing-DivineInsights-theme-color-schemes/). Thanks for reading.✌🏻
 

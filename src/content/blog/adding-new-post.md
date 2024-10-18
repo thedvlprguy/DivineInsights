@@ -167,4 +167,4 @@ My recommendation for image compression sites.
 
 The default OG image will be placed if a post does not specify the OG image. Though not required, OG image related to the post should be specify in the frontmatter. The recommended size for OG image is **_1200 X 640_** px.
 
-> Since DivineInsights v1.4.0, OG images will be generated automatically if not specified. Check out [the announcement](https://divineinsights.pages.dev/posts/dynamic-og-image-generation-in-DivineInsights-blog-posts/).
+> Since DivineInsights v1.4.0, OG images will be generated automatically if not specified. Check out [the announcement](https://divineinsights.vercel.app/posts/dynamic-og-image-generation-in-DivineInsights-blog-posts/).

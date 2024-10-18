@@ -23,7 +23,7 @@ DivineInsights theme will include light and dark mode by default. In other words
 ```js
 // file: src/config.ts
 export const SITE = {
-  website: "https://divineinsights.pages.dev/",
+  website: "https://divineinsights.vercel.app/",
   author: "Aditya Tomar",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   title: "DivineInsights",
@@ -129,4 +129,4 @@ Here is an example of changing the light color scheme.
 }
 ```
 
-> Check out some [predefined color schemes](https://divineinsights.pages.dev/posts/predefined-color-schemes/) DivineInsights has already crafted for you.
+> Check out some [predefined color schemes](https://divineinsights.vercel.app/posts/predefined-color-schemes/) DivineInsights has already crafted for you.
