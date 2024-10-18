@@ -77,8 +77,6 @@ export const LOCALE = {
 
 You can specify site's title or logo image in `src/config.ts` file.
 
-![An arrow pointing at the website logo](https://res.cloudinary.com/noezectz/v1663911318/divineinsights/DivineInsights-logo-config_goff5l.png)
-
 ```js
 // file: src/config.ts
 export const LOGO_IMAGE = {
@@ -102,8 +100,6 @@ It is recommended that you specify width and height of your logo image. You can 
 ## Configuring social links
 
 You can configure your own social links along with its icons.
-
-![An arrow pointing at social link icons](https://res.cloudinary.com/noezectz/v1663914759/divineinsights/divineinsights-socials_tkcjgq.png)
 
 Currently 20 social icons are supported. (Github, LinkedIn, Facebook etc.)
 
@@ -167,3 +163,4 @@ linkTitle: `Follow ${SITE.title} on Twitter`;
 ## Conclusion
 
 This is the brief specification of how you can customize this theme. You can customize more if you know some coding. For customizing styles, please read [this article](https://divineinsights.pages.dev/posts/customizing-DivineInsights-theme-color-schemes/). Thanks for reading.✌🏻
+

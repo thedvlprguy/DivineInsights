@@ -38,8 +38,7 @@ Dynamic OG images will be generated at build time for blog posts that
 
 ## Anatomy of DivineInsights dynamic OG image
 
-Dynamic OG image of DivineInsights includes _the blog post title_, _author name_ and _site title_. Author name and site title will be retrieved via `SITE.author` and `SITE.title` of **"src/config.ts"** file. The title is generated from the blog post frontmatter `title`.  
-![Example Dynamic OG Image link](https://user-images.githubusercontent.com/53733092/209704501-e9c2236a-3f4d-4c67-bab3-025aebd63382.png)
+Dynamic OG image of DivineInsights includes _the blog post title_, _author name_ and _site title_. Author name and site title will be retrieved via `SITE.author` and `SITE.title` of **"src/config.ts"** file. The title is generated from the blog post frontmatter `title`.
 
 ### Issue Non-Latin Characters
 
@@ -86,3 +85,4 @@ At the time of writing this, [Satori](https://github.com/vercel/satori) is fairl
 
 - Besides, RTL languages are not supported yet.
 - [Using emoji](https://github.com/vercel/satori#emojis) in the title might be a little bit tricky.
+

@@ -25,8 +25,6 @@ Light color scheme has to be defined using the css selector `:root` and `html[da
 
 ### Lobster
 
-![lobster-color-scheme](https://user-images.githubusercontent.com/53733092/192282447-1d222faf-a3ce-44a9-9cfe-ac873155e5a9.png)
-
 ```css
 :root,
 html[data-theme="light"] {
@@ -41,8 +39,6 @@ html[data-theme="light"] {
 
 ### Leaf Blue
 
-![leaf-blue-color-scheme](https://user-images.githubusercontent.com/53733092/192318782-e80e3c39-54b5-423e-8f4b-9ae60402fc8d.png)
-
 ```css
 :root,
 html[data-theme="light"] {
@@ -56,8 +52,6 @@ html[data-theme="light"] {
 ```
 
 ### Pinky light
-
-![pinky-color-scheme](https://user-images.githubusercontent.com/53733092/192286510-892d0042-2d6d-471e-bb72-954221ae2d17.png)
 
 ```css
 :root,
@@ -77,8 +71,6 @@ Dark color scheme has to be defined as `html[data-theme="dark"]`.
 
 ### DivineInsights 1 original Dark Theme
 
-![DivineInsights 1 default dark theme](https://user-images.githubusercontent.com/53733092/215769153-13b0ad8d-5ba2-44b1-af06-e5ae61293f62.png)
-
 ```css
 html[data-theme="dark"] {
   --color-fill: 47, 55, 65;
@@ -91,8 +83,6 @@ html[data-theme="dark"] {
 ```
 
 ### Deep Oyster
-
-![deep-oyster-color-scheme](https://user-images.githubusercontent.com/53733092/192314524-45ec5904-3d8f-450a-9edf-1e32c5e11d6c.png)
 
 ```css
 html[data-theme="dark"] {
@@ -107,8 +97,6 @@ html[data-theme="dark"] {
 
 ### Pikky dark
 
-![pinky-dark-color-scheme](https://user-images.githubusercontent.com/53733092/192307050-fbd55326-911c-4001-87c6-a8ad9378ac2e.png)
-
 ```css
 html[data-theme="dark"] {
   --color-fill: 53, 54, 64;
@@ -121,8 +109,6 @@ html[data-theme="dark"] {
 ```
 
 ### Astro dark (High Contrast)
-
-![astro-dark-color-scheme](https://user-images.githubusercontent.com/53733092/215680520-59427bb0-f4cb-48c0-bccc-f182a428d72d.svg)
 
 ```css
 html[data-theme="dark"] {
@@ -138,8 +124,6 @@ html[data-theme="dark"] {
 
 ### Astro dark (New default dark theme in DivineInsights 2)
 
-![new dark color scheme - low contrast](https://user-images.githubusercontent.com/53733092/215772856-d5b7ae35-ddaa-4ed6-b0bf-3fa5dbcf834c.png)
-
 ```css
 html[data-theme="dark"] {
   --color-fill: 33, 39, 55; /* lower contrast bgColor */
@@ -153,8 +137,6 @@ html[data-theme="dark"] {
 
 ### Astro Deep Purple (New dark theme in DivineInsights 3)
 
-![DivineInsights v3 new theme](https://github.com/ascendantaditya/divineinsights/assets/53733092/c8b5d7e1-a3bc-4852-a5ad-4abf7b3cec79)
-
 ```css
 html[data-theme="dark"] {
   --color-fill: 33, 39, 55;
@@ -167,8 +149,6 @@ html[data-theme="dark"] {
 ```
 
 ### DivineInsights v4 Special (New dark theme in DivineInsights 4)
-
-![DivineInsights v4 new theme](https://github.com/ascendantaditya/divineinsights/assets/53733092/66eb74dc-7a0e-4f2e-982d-25f5c443b25a)
 
 ```css
 html[data-theme="dark"] {
