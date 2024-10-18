@@ -13,7 +13,7 @@ ogImage: ""
 description: This is the example description of the example post.
 ---
 
-# DBMS Basics
+# DBMS Basics Made Easy
 
 This document provides a list of basic Database Management System (DBMS) concepts and commands to help you get started with understanding and using databases effectively.
 

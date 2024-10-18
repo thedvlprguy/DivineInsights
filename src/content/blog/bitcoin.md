@@ -13,7 +13,7 @@ ogImage: ""
 description: This is an example description of the example post about Bitcoin.
 ---
 
-# Understanding Bitcoin
+# Understanding Bitcoin Easily
 
 This document provides an overview of Bitcoin, its underlying technology, and its significance in the world of finance and technology.
 

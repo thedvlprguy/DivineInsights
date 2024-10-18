@@ -13,7 +13,7 @@ ogImage: ""
 description: This is the example description of the example post.
 ---
 
-# Bash Scripting Basics
+# Bash Scripting Basics made Easy
 
 This document provides a list of basic Bash scripting commands and concepts to help you get started with writing and executing scripts in a Linux environment.
 

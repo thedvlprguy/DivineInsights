@@ -13,7 +13,7 @@ ogImage: ""
 description: This is an example description of the OSI Model post.
 ---
 
-# Understanding the OSI Model
+# Understanding the OSI Model made Easy
 
 This document provides an overview of the OSI Model, its key concepts, and how it functions as a framework for understanding network protocols.
 
