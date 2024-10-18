@@ -26,7 +26,8 @@
     "remark-toc": "^9.0.0",
     "satori": "^0.11.0",
     "tailwindcss": "^3.4.11",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.3",
+    "vite-plugin-glob": "^0.3.2"
   },
   "devDependencies": {
     "@astrojs/react": "^3.6.2",
