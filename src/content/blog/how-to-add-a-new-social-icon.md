@@ -1,13 +1,13 @@
 ---
-author: Simon Smale
-pubDatetime: 2024-01-08T18:16:00.000Z
+author: Sushant
+pubDatetime: 2024-10-15T05:17:19Z
 modDatetime:
-title: How to add a new Social Icon to AstroPaper
+title: How to add a new Social Icon to DivineInsights
 featured: false
 draft: false
 tags:
   - FAQ
-description: How to add a new social icon to AstroPaper
+description: How to add a new social icon to DivineInsights
 ---
 
 Hot new platform? Niche corner of the internet? Or one specific to your area? This post will guide you through how to add a new social icon to the theme.
@@ -16,7 +16,7 @@ Hot new platform? Niche corner of the internet? Or one specific to your area? Th
 
 ## Merging back to the theme
 
-The maintainer of the theme [Sat Naing](https://github.com/satnaing) has said that he intends to only
+The maintainer of the theme [Aditya Tomar](https://github.com/ascendantaditya) has said that he intends to only
 
 > keep the project supporting only a specific set of popular social icons.
 
@@ -113,7 +113,7 @@ export const SOCIALS: SocialObjects = [
   /* others */
   {
     name: "StackOverflow",
-    href: "https://stackoverflow.com/search?q=astropaper",
+    href: "https://stackoverflow.com/search?q=DivineInsights",
     linkTitle: `See what questions there are about ${SITE.title} on StackOverflow`,
     active: true,
   },
@@ -122,4 +122,4 @@ export const SOCIALS: SocialObjects = [
 
 > Ensure that `href` and `linkTitle` are updated for the corresponding link and label.
 
-Full code for the above steps can be found in [this pull request](https://github.com/satnaing/astro-paper/pull/216/files)
+Full code for the above steps can be found in [this pull request](https://github.com/ascendantaditya/divineinsights/pull/216/files)

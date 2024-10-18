@@ -2,7 +2,7 @@
 author: FjellOverflow
 pubDatetime: 2024-07-25T11:11:53Z
 modDatetime: 2024-09-25T12:07:53Z
-title: How to integrate Giscus comments into AstroPaper
+title: How to integrate Giscus comments into DivineInsights
 slug: how-to-integrate-giscus-comments
 featured: true
 draft: false
@@ -23,7 +23,7 @@ Hosting a thin static blog on a platform like [GitHub Pages](https://docs.github
 
 Embed the _Giscus_ client-side script bundle on your site, configure it with the correct repository URL, and users can view and write comments (when logged into _GitHub_).
 
-The approach is serverless, as the comments are stored on _GitHub_ and dynamically loaded from there on client side, hence perfect for a static blog, like _AstroPaper_.
+The approach is serverless, as the comments are stored on _GitHub_ and dynamically loaded from there on client side, hence perfect for a static blog, like _DivineInsights_.
 
 ## Setting up _Giscus_
 
@@ -46,7 +46,7 @@ Next, configuring _Giscus_ is necessary. In most cases, the preselected defaults
 However you need to
 
 - select the right language for the UI
-- specify the _GitHub_ repository you want to connect, typically the repository containing your statically hosted _AstroPaper_ blog on _GitHub Pages_
+- specify the _GitHub_ repository you want to connect, typically the repository containing your statically hosted _DivineInsights_ blog on _GitHub Pages_
 - create and set an `Announcement` type discussion on _GitHub_ if you want to ensure nobody can create random comments directly on _GitHub_
 - define the color scheme
 
@@ -75,7 +75,7 @@ You should now have a script tag that looks like this:
 ></script>
 ```
 
-Simply add that to the source code of the site. Most likely, if you're using _AstroPaper_ and want to enable comments on posts, navigate to `src/layouts/PostDetails.astro` and paste it into the desired location where you want the comments to appear, perhaps underneath the `Share this post on:` buttons.
+Simply add that to the source code of the site. Most likely, if you're using _DivineInsights_ and want to enable comments on posts, navigate to `src/layouts/PostDetails.astro` and paste it into the desired location where you want the comments to appear, perhaps underneath the `Share this post on:` buttons.
 
 ```diff
       <ShareLinks />
@@ -94,11 +94,11 @@ Simply add that to the source code of the site. Most likely, if you're using _As
 </Layout>
 ```
 
-And it's done! You have successfully integrated comments in _AstroPaper_!
+And it's done! You have successfully integrated comments in _DivineInsights_!
 
 ## React component with light/dark theme
 
-The embedded script tag in the layout is quite static, with the _Giscus_ configuration, including `theme`, hardcoded into the layout. Given that _AstroPaper_ features a light/dark theme toggle, it would be nice for the comments to seamlessly transition between light and dark themes along with the rest of the site. To achieve this, a more sophisticated approach to embedding _Giscus_ is required.
+The embedded script tag in the layout is quite static, with the _Giscus_ configuration, including `theme`, hardcoded into the layout. Given that _DivineInsights_ features a light/dark theme toggle, it would be nice for the comments to seamlessly transition between light and dark themes along with the rest of the site. To achieve this, a more sophisticated approach to embedding _Giscus_ is required.
 
 Firstly, we are going to install the [React component](https://www.npmjs.com/package/@giscus/react) for _Giscus_:
 

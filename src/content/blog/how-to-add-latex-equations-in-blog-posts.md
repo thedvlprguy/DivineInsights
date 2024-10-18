@@ -1,21 +1,21 @@
 ---
-author: Alberto Perdomo
+author: Akshansh Anant
 pubDatetime: 2024-09-08T20:58:52.737Z
-title: Adding LaTeX Equations in AstroPaper blog posts
+title: Adding LaTeX Equations in DivineInsights blog posts
 featured: false
 tags:
   - rendering
   - docs
-description: How to use LaTeX equations in your Markdown files for AstroPaper.
+description: How to use LaTeX equations in your Markdown files for DivineInsights.
 ---
 
-This document demonstrates how to use LaTeX equations in your Markdown files for AstroPaper. LaTeX is a powerful typesetting system often used for mathematical and scientific documents.
+This document demonstrates how to use LaTeX equations in your Markdown files for DivineInsights. LaTeX is a powerful typesetting system often used for mathematical and scientific documents.
 
 ## Table of contents
 
 ## Instructions
 
-In this section, you will find instructions on how to add support for LaTeX in your Markdown files for AstroPaper.
+In this section, you will find instructions on how to add support for LaTeX in your Markdown files for DivineInsights.
 
 1. Install the necessary remark and rehype plugins by running `npm install rehype-katex remark-math katex`.
 

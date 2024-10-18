@@ -1,7 +1,7 @@
 ---
 title: Example Draft Post
-author: Sat Naing
-pubDatetime: 2022-06-06T04:06:31Z
+author: Aditya Tomar
+pubDatetime: 2024-10-18T05:17:19Z
 slug: example-draft-post
 featured: false
 draft: true

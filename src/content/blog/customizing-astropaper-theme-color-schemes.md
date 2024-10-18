@@ -1,7 +1,7 @@
 ---
-author: Sat Naing
-pubDatetime: 2022-09-25T15:20:35Z
-title: Customizing AstroPaper theme color schemes
+author: Aditya Tomar
+pubDatetime: 2024-10-18T05:17:19Z
+title: Customizing DivineInsights theme color schemes
 featured: false
 draft: false
 tags:
@@ -9,7 +9,7 @@ tags:
   - docs
 description:
   How you can enable/disable light & dark mode; and customize color schemes
-  of AstroPaper theme.
+  of DivineInsights theme.
 ---
 
 This post will explain how you can enable/disable light & dark mode for the website. Moreover, you'll learn how you can customize color schemes of the entire website.
@@ -18,16 +18,16 @@ This post will explain how you can enable/disable light & dark mode for the webs
 
 ## Enable/disable light & dark mode
 
-AstroPaper theme will include light and dark mode by default. In other words, there will be two color schemes\_ one for light mode and another for dark mode. This default behavior can be disabled in SITE configuration object of the `src/config.ts` file.
+DivineInsights theme will include light and dark mode by default. In other words, there will be two color schemes\_ one for light mode and another for dark mode. This default behavior can be disabled in SITE configuration object of the `src/config.ts` file.
 
 ```js
 // file: src/config.ts
 export const SITE = {
-  website: "https://astro-paper.pages.dev/",
-  author: "Sat Naing",
+  website: "https://divineinsights.pages.dev/",
+  author: "Aditya Tomar",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
-  ogImage: "astropaper-og.jpg",
+  title: "DivineInsights",
+  ogImage: "DivineInsights-og.jpg",
   lightAndDarkMode: true, // true by default
   postPerPage: 3,
 };
@@ -67,7 +67,7 @@ The **primaryColorScheme** variable can hold two values\_ `"light"`, `"dark"`. Y
 
 ## Customize color schemes
 
-Both light & dark color schemes of AstroPaper theme can be customized. You can do this in `src/styles/base.css` file.
+Both light & dark color schemes of DivineInsights theme can be customized. You can do this in `src/styles/base.css` file.
 
 ```css
 /* file: src/styles/base.css */
@@ -97,7 +97,7 @@ Both light & dark color schemes of AstroPaper theme can be customized. You can d
 }
 ```
 
-In AstroPaper theme, `:root` and `html[data-theme="light"]` selectors are used as the light color scheme and `html[data-theme="dark"]` is used the dark color scheme. If you want to customize your custom color scheme, you have to specify your light color scheme inside `:root`,`html[data-theme="light"]` and dark color scheme inside `html[data-theme="dark"]`.
+In DivineInsights theme, `:root` and `html[data-theme="light"]` selectors are used as the light color scheme and `html[data-theme="dark"]` is used the dark color scheme. If you want to customize your custom color scheme, you have to specify your light color scheme inside `:root`,`html[data-theme="light"]` and dark color scheme inside `html[data-theme="dark"]`.
 
 Colors are declared in CSS custom property (CSS Variable) notation. Color property values are written in rgb values. (Note: instead of `rgb(40, 39, 40)`, only specify `40, 39, 40`)
 
@@ -129,4 +129,4 @@ Here is an example of changing the light color scheme.
 }
 ```
 
-> Check out some [predefined color schemes](https://astro-paper.pages.dev/posts/predefined-color-schemes/) AstroPaper has already crafted for you.
+> Check out some [predefined color schemes](https://divineinsights.pages.dev/posts/predefined-color-schemes/) DivineInsights has already crafted for you.

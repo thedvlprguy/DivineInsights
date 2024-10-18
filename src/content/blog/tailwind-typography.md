@@ -1,7 +1,7 @@
 ---
 title: Tailwind Typography Plugin
-author: Sat Naing
-pubDatetime: 2022-07-05T02:05:51Z
+author: Aditya Tomar
+pubDatetime: 2024-07-05T02:05:51Z
 featured: false
 draft: false
 tags:
@@ -10,7 +10,7 @@ tags:
 description: "EXAMPLE POST: About Tailwind Typography Plugin and how you can use it effectively."
 ---
 
-> This article is from [TailwindLabs](https://tailwindcss-typography.vercel.app/). I put this article to demonstrate how you can write blog posts/articles using AstroPaper theme.
+> This article is from [TailwindLabs](https://tailwindcss-typography.vercel.app/). I put this article to demonstrate how you can write blog posts/articles using DivineInsights theme.
 
 By default, Tailwind removes all of the default browser styling from paragraphs, headings, lists and more. This ends up being really useful for building application UIs because you spend less time undoing user-agent styles, but when you _really are_ just trying to style some content that came from a rich-text editor in a CMS or a markdown file, it can be surprising and unintuitive.
 

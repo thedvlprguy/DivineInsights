@@ -1,17 +1,17 @@
 ---
-author: Sat Naing
-pubDatetime: 2022-12-28T04:59:04.866Z
-title: Dynamic OG image generation in AstroPaper blog posts
-slug: dynamic-og-image-generation-in-astropaper-blog-posts
+author: Aditya Tomar
+pubDatetime: 2024-10-18T05:17:19Z
+title: Dynamic OG image generation in DivineInsights blog posts
+slug: dynamic-og-image-generation-in-DivineInsights-blog-posts
 featured: false
 draft: false
 tags:
   - docs
   - release
-description: New feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.
+description: New feature in DivineInsights v1.4.0, introducing dynamic OG image generation for blog posts.
 ---
 
-New feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.
+New feature in DivineInsights v1.4.0, introducing dynamic OG image generation for blog posts.
 
 ## Table of contents
 
@@ -23,22 +23,22 @@ OG images (aka Social Images) play an important role in social media engagements
 
 ## Default/Static OG image (the old way)
 
-AstroPaper already provided a way to add an OG image to a blog post. The author can specify the OG image in the frontmatter `ogImage`. Even when the author doesn't define the OG image in the frontmatter, the default OG image will be used as a fallback (in this case `public/astropaper-og.jpg`). But the problem is that the default OG image is static, which means every blog post that does not include an OG image in the frontmatter will always use the same default OG image despite each post title/content being different from others.
+DivineInsights already provided a way to add an OG image to a blog post. The author can specify the OG image in the frontmatter `ogImage`. Even when the author doesn't define the OG image in the frontmatter, the default OG image will be used as a fallback (in this case `public/DivineInsights-og.jpg`). But the problem is that the default OG image is static, which means every blog post that does not include an OG image in the frontmatter will always use the same default OG image despite each post title/content being different from others.
 
 ## Dynamic OG Image
 
 Generating a dynamic OG image for each post allows the author to avoid specifying an OG image for every single blog post. Besides, this will prevent the fallback OG image from being identical to all blog posts.
 
-In AstroPaper v1.4.0, Vercel's [Satori](https://github.com/vercel/satori) package is used for dynamic OG image generation.
+In DivineInsights v1.4.0, Vercel's [Satori](https://github.com/vercel/satori) package is used for dynamic OG image generation.
 
 Dynamic OG images will be generated at build time for blog posts that
 
 - don't include OG image in the frontmatter
 - are not marked as draft.
 
-## Anatomy of AstroPaper dynamic OG image
+## Anatomy of DivineInsights dynamic OG image
 
-Dynamic OG image of AstroPaper includes _the blog post title_, _author name_ and _site title_. Author name and site title will be retrieved via `SITE.author` and `SITE.title` of **"src/config.ts"** file. The title is generated from the blog post frontmatter `title`.  
+Dynamic OG image of DivineInsights includes _the blog post title_, _author name_ and _site title_. Author name and site title will be retrieved via `SITE.author` and `SITE.title` of **"src/config.ts"** file. The title is generated from the blog post frontmatter `title`.  
 ![Example Dynamic OG Image link](https://user-images.githubusercontent.com/53733092/209704501-e9c2236a-3f4d-4c67-bab3-025aebd63382.png)
 
 ### Issue Non-Latin Characters
@@ -78,7 +78,7 @@ async function loadGoogleFonts(
 }
 ```
 
-> Check out [this PR](https://github.com/satnaing/astro-paper/pull/318) for more info.
+> Check out [this PR](https://github.com/ascendantaditya/divineinsights/pull/318) for more info.
 
 ## Limitations
 
