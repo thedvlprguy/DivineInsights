@@ -1,7 +1,7 @@
 ---
 title: How I Cracked MLH
 author: Aditya Tomar
-pubDatetime: 2024-10-18T21:22:00Z
+pubDatetime: 2025-02-13T23:22:00Z
 slug: how-i-cracked-mlh
 featured: true
 draft: false
