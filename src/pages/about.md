@@ -38,7 +38,7 @@ Or you can even give any feedback via my [email](mailto:contact@thedvlprguy.dev)
 ## About the Author
 
 <div style="text-align: center;">
-  <img src="/assets/aditya1.png" class="rounded-full w-32 h-32 mx-auto" alt="Aditya's image">
+  <img src="/assets/aditya2.png" class="rounded-full w-32 h-32 mx-auto" alt="Aditya's image">
 </div>
 
 Aditya, also known as thedvlprguy, is a cybersecurity professional who loves to contribute to cybersecurity. He loves Linux distros and enjoys pentesting and ethical hacking. Currently, Aditya is a Linux kernel developer at MLH.
