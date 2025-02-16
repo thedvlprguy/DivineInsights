@@ -162,8 +162,4 @@ Open ports are: [22, 25, 80, 443]
 
 This tutorial demonstrated how to build a simple yet efficient Python-based port scanner using multithreading. You can customize and expand it further, but always use it ethically and within legal boundaries.
 
-For additional resources:
-- Download Full Source Code: [Click Here]
-- Download This Tutorial as PDF: [Click Here]
-- Follow NeuralNine on Instagram: [Click Here]
 
