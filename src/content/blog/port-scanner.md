@@ -1,7 +1,7 @@
 ---
 author: Aditya Tomar
-pubDatetime: 2022-09-23T15:22:00Z
-modDatetime: 2023-12-21T09:12:47.400Z
+pubDatetime: 2025-02-17T01:35:00Z
+modDatetime: 2025-02-17T01:35:00Z
 title: Creating a Port Scanner in Python
 slug: creating-a-port-scanner-in-python
 featured: true
