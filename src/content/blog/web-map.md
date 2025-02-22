@@ -1,5 +1,5 @@
 ---
-title: How to Build WebMap
+title: How to Use WebMap
 author: Sabyasachi Rana
 pubDatetime: 2025-02-22T15:22:00Z
 slug: how-to-use-webmap
